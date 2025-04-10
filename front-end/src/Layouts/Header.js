@@ -134,10 +134,12 @@ const Header = ({ onChangeLayoutMode, layoutModeType, headerClass }) => {
                             <LanguageDropdown />
 
                             {/* WebAppsDropdown */}
-                            <WebAppsDropdown />
+                            {/* <WebAppsDropdown /> */}
+                            {/* TODO: Enable in future */}
 
                             {/* MyCartDropdwon */}
-                            <MyCartDropdown />
+                            {/* <MyCartDropdown /> */}
+                            {/* TODO: Enable in future */}
 
                             {/* FullScreenDropdown */}
                             <FullScreenDropdown />
@@ -149,10 +151,12 @@ const Header = ({ onChangeLayoutMode, layoutModeType, headerClass }) => {
                             />
 
                             {/* NotificationDropdown */}
-                            <NotificationDropdown />
+                            {/* <NotificationDropdown /> */}
+                            {/* TODO: Enable in future */}
 
                             {/* ProfileDropdown */}
-                            <ProfileDropdown />
+                            {/* <ProfileDropdown /> */}
+                            {/* TODO: Enable in future */}
                         </div>
                     </div>
                 </div>
