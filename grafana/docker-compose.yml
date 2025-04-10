@@ -10,5 +10,6 @@ services:
       - grafana-storage:/var/lib/grafana
     environment:
       - GF_SECURITY_ALLOW_EMBEDDING=true
+      - GF_EXPLORE_ENABLED=false
 volumes:
   grafana-storage: {}
