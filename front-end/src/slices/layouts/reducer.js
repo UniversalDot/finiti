@@ -15,9 +15,9 @@ import {
 } from "../../Components/constants/layout";
 
 export const initialState = {
-  layoutType: layoutTypes.SEMIBOX,
+  layoutType: layoutTypes.HORIZONTAL,
   leftSidebarType: leftSidebarTypes.LIGHT,
-  layoutModeType: layoutModeTypes.LIGHTMODE,
+  layoutModeType: layoutModeTypes.DARKMODE,
   layoutWidthType: layoutWidthTypes.FLUID,
   layoutPositionType: layoutPositionTypes.FIXED,
   topbarThemeType: topbarThemeTypes.LIGHT,
