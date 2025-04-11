@@ -17,7 +17,7 @@ const fourth = { lat: 19.0760, lng: 72.8777 }
 
 
 const GoogleMaps = (props) => {
-    document.title = "Google Maps | Velzon - React Admin & Dashboard Template";
+    document.title = "Google Maps | Infinite Insights. Finite Decisions. ";
 
     const selectedPlace = {}
 

@@ -18,7 +18,7 @@ import { SlideOnlyExample, WithControlExample, WithIndicatorExample, WithCaption
 
 
 const UiCarousel = () => {
-    document.title="Carousel | Velzon - React Admin & Dashboard Template";
+    document.title="Carousel | Infinite Insights. Finite Decisions. ";
     return (
         <React.Fragment>
             <UiContent />

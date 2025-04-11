@@ -17,7 +17,7 @@ import { jobCompanies } from "../../../common/data/appsJobs";
 import Pagination from "../../../Components/Common/Pagination";
 
 const CompaniesList = () => {
-  document.title = "Companies | Velzon - React Admin & Dashboard Template";
+  document.title = "Companies | Infinite Insights. Finite Decisions. ";
 
   const [data, setData] = useState([])
   const [isToggle, setIsToogle] = useState(false)

@@ -26,7 +26,7 @@ import { ImgRoundedCircleExample, ImgThumbnailsExample, ImgSizesExample, AvatarE
 
 
 const UiImages = () => {
-    document.title="Images | Velzon - React Admin & Dashboard Template";
+    document.title="Images | Infinite Insights. Finite Decisions. ";
     return (
         <React.Fragment>
             <UiContent />

@@ -14,7 +14,7 @@ import { DefaultAlertsExample, BorderlessExample, DismissingExample, LinkColorEx
 
 
 const UiAlerts = () => {
-    document.title="Alerts | Velzon - React Admin & Dashboard Template";
+    document.title="Alerts | Infinite Insights. Finite Decisions. ";
     const [show, setShow] = useState(false);
 
     return (

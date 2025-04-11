@@ -6,7 +6,7 @@ import Widgets from './Widgets';
 
 
 const Transactions = () => {
-    document.title="Transactions | Velzon - React Admin & Dashboard Template";
+    document.title="Transactions | Infinite Insights. Finite Decisions. ";
     return (
         <React.Fragment>
             <div className="page-content">

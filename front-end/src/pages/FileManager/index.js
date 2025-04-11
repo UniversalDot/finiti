@@ -27,7 +27,7 @@ import { createSelector } from 'reselect';
 
 
 const FileManager = () => {
-    document.title = "File Manager | Velzon - React Admin & Dashboard Template";
+    document.title = "File Manager | Infinite Insights. Finite Decisions. ";
 
     const dispatch = useDispatch();
 

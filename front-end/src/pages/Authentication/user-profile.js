@@ -87,7 +87,7 @@ const UserProfile = () => {
     }
   });
 
-  document.title = "Profile | Velzon - React Admin & Dashboard Template";
+  document.title = "Profile | Infinite Insights. Finite Decisions. ";
   return (
     <React.Fragment>
       <div className="page-content">

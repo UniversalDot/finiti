@@ -22,7 +22,7 @@ const CryproOrder = () => {
         dispatch(getOrderList());
     }, [dispatch]);
 
-    document.title = "Orders | Velzon - React Admin & Dashboard Template";
+    document.title = "Orders | Infinite Insights. Finite Decisions. ";
 
     return (
         <React.Fragment>

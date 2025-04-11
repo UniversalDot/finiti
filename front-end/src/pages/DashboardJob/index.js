@@ -10,7 +10,7 @@ import RecomendedJobs from "./RecomendedJobs";
 import Widgets from "./Widgets";
 
 const DashboardJobs = () => {
-  document.title = "Jobs Dashboard | Velzon - React Admin & Dashboard Template";
+  document.title = "Jobs Dashboard | Infinite Insights. Finite Decisions. ";
 
   return (
     <React.Fragment>

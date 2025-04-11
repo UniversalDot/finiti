@@ -45,7 +45,7 @@ const UiDropdowns = () => {
         }
     };
 
-    document.title="Dropdowns | Velzon - React Admin & Dashboard Template";
+    document.title="Dropdowns | Infinite Insights. Finite Decisions. ";
     
     return (
         <React.Fragment>

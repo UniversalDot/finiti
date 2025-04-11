@@ -11,7 +11,7 @@ import "yet-another-react-lightbox/styles.css";
 
 const Gallery = () => {
 
-  document.title = "Gallery | Velzon - React Admin & Dashboard Template";
+  document.title = "Gallery | Infinite Insights. Finite Decisions. ";
 
   const [displayCategory, setCategory] = useState("All");
   const [index, setIndex] = useState(-1);

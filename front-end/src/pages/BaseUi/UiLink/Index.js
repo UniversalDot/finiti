@@ -7,7 +7,7 @@ import PreviewCardHeader from '../../../Components/Common/PreviewCardHeader';
 import { ColorExample, DefaultLinkExample, OffsetExample, OpacityExample, OpacityHoverExample, UtilitiesExample, UtilityOpacityExample } from './UiLinkCode';
 
 const UILink = () => {
-    document.title = "Link | Velzon - React Admin & Dashboard Template";
+    document.title = "Link | Infinite Insights. Finite Decisions. ";
     return (
         <React.Fragment>
             <UiContent />

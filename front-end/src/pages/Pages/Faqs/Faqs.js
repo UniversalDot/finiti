@@ -115,7 +115,7 @@ const Faqs = () => {
     setcol11(false)
   }
 
-document.title="FAQs | Velzon - React Admin & Dashboard Template";
+document.title="FAQs | Infinite Insights. Finite Decisions. ";
 
   return (
     <React.Fragment>

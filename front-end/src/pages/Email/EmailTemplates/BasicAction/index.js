@@ -7,7 +7,7 @@ import EmailVerifyAction from "./EmailVerifyAction";
 import PasswordChangeAction from "./PasswordChangeAction";
 
 const index = () => {
-    document.title = "Basic Action | Velzon - React Admin & Dashboard Template";
+    document.title = "Basic Action | Infinite Insights. Finite Decisions. ";
     
     return (
         <React.Fragment>
