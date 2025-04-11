@@ -818,66 +818,66 @@ const Navdata = () => {
             label: "Components",
             isHeader: true,
         },
-        {
-            id: "baseUi",
-            label: "Base UI",
-            icon: "ri-pencil-ruler-2-line",
-            link: "/#",
-            click: function (e) {
-                e.preventDefault();
-                setIsBaseUi(!isBaseUi);
-                setIscurrentState('BaseUi');
-                updateIconSidebar(e);
-            },
-            stateVariables: isBaseUi,
-            subItems: [
-                { id: "alerts", label: "Alerts", link: "/ui-alerts", parentId: "baseUi" },
-                { id: "badges", label: "Badges", link: "/ui-badges", parentId: "baseUi" },
-                { id: "buttons", label: "Buttons", link: "/ui-buttons", parentId: "baseUi" },
-                { id: "colors", label: "Colors", link: "/ui-colors", parentId: "baseUi" },
-                { id: "cards", label: "Cards", link: "/ui-cards", parentId: "baseUi" },
-                { id: "carousel", label: "Carousel", link: "/ui-carousel", parentId: "baseUi" },
-                { id: "dropdowns", label: "Dropdowns", link: "/ui-dropdowns", parentId: "baseUi" },
-                { id: "grid", label: "Grid", link: "/ui-grid", parentId: "baseUi" },
-                { id: "images", label: "Images", link: "/ui-images", parentId: "baseUi" },
-                { id: "tabs", label: "Tabs", link: "/ui-tabs", parentId: "baseUi" },
-                { id: "accordions", label: "Accordion & Collapse", link: "/ui-accordions", parentId: "baseUi" },
-                { id: "modals", label: "Modals", link: "/ui-modals", parentId: "baseUi" },
-                { id: "offcanvas", label: "Offcanvas", link: "/ui-offcanvas", parentId: "baseUi" },
-                { id: "placeholders", label: "Placeholders", link: "/ui-placeholders", parentId: "baseUi" },
-                { id: "progress", label: "Progress", link: "/ui-progress", parentId: "baseUi" },
-                { id: "notifications", label: "Notifications", link: "/ui-notifications", parentId: "baseUi" },
-                { id: "media", label: "Media object", link: "/ui-media", parentId: "baseUi" },
-                { id: "embedvideo", label: "Embed Video", link: "/ui-embed-video", parentId: "baseUi" },
-                { id: "typography", label: "Typography", link: "/ui-typography", parentId: "baseUi" },
-                { id: "lists", label: "Lists", link: "/ui-lists", parentId: "baseUi" },
-                { id: "links", label: "Links", link: "/ui-links", parentId: "baseUi", badgeColor: "success", badgeName: "New" },
-                { id: "general", label: "General", link: "/ui-general", parentId: "baseUi" },
-                { id: "ribbons", label: "Ribbons", link: "/ui-ribbons", parentId: "baseUi" },
-                { id: "utilities", label: "Utilities", link: "/ui-utilities", parentId: "baseUi" },
-            ],
-        },
-        {
-            id: "advanceUi",
-            label: "Advance UI",
-            icon: "ri-stack-line",
-            link: "/#",
-            click: function (e) {
-                e.preventDefault();
-                setIsAdvanceUi(!isAdvanceUi);
-                setIscurrentState('AdvanceUi');
-                updateIconSidebar(e);
-            },
-            stateVariables: isAdvanceUi,
-            subItems: [
-                { id: "nestablelist", label: "Nestable List", link: "/advance-ui-nestable", parentId: "advanceUi" },
-                { id: "scrollbar", label: "Scrollbar", link: "/advance-ui-scrollbar", parentId: "advanceUi" },
-                { id: "animation", label: "Animation", link: "/advance-ui-animation", parentId: "advanceUi" },
-                { id: "swiperslider", label: "Swiper Slider", link: "/advance-ui-swiper", parentId: "advanceUi" },
-                { id: "ratings", label: "Ratings", link: "/advance-ui-ratings", parentId: "advanceUi" },
-                { id: "highlight", label: "Highlight", link: "/advance-ui-highlight", parentId: "advanceUi" },
-            ],
-        },
+        // {
+        //     id: "baseUi",
+        //     label: "Base UI",
+        //     icon: "ri-pencil-ruler-2-line",
+        //     link: "/#",
+        //     click: function (e) {
+        //         e.preventDefault();
+        //         setIsBaseUi(!isBaseUi);
+        //         setIscurrentState('BaseUi');
+        //         updateIconSidebar(e);
+        //     },
+        //     stateVariables: isBaseUi,
+        //     subItems: [
+        //         { id: "alerts", label: "Alerts", link: "/ui-alerts", parentId: "baseUi" },
+        //         { id: "badges", label: "Badges", link: "/ui-badges", parentId: "baseUi" },
+        //         { id: "buttons", label: "Buttons", link: "/ui-buttons", parentId: "baseUi" },
+        //         { id: "colors", label: "Colors", link: "/ui-colors", parentId: "baseUi" },
+        //         { id: "cards", label: "Cards", link: "/ui-cards", parentId: "baseUi" },
+        //         { id: "carousel", label: "Carousel", link: "/ui-carousel", parentId: "baseUi" },
+        //         { id: "dropdowns", label: "Dropdowns", link: "/ui-dropdowns", parentId: "baseUi" },
+        //         { id: "grid", label: "Grid", link: "/ui-grid", parentId: "baseUi" },
+        //         { id: "images", label: "Images", link: "/ui-images", parentId: "baseUi" },
+        //         { id: "tabs", label: "Tabs", link: "/ui-tabs", parentId: "baseUi" },
+        //         { id: "accordions", label: "Accordion & Collapse", link: "/ui-accordions", parentId: "baseUi" },
+        //         { id: "modals", label: "Modals", link: "/ui-modals", parentId: "baseUi" },
+        //         { id: "offcanvas", label: "Offcanvas", link: "/ui-offcanvas", parentId: "baseUi" },
+        //         { id: "placeholders", label: "Placeholders", link: "/ui-placeholders", parentId: "baseUi" },
+        //         { id: "progress", label: "Progress", link: "/ui-progress", parentId: "baseUi" },
+        //         { id: "notifications", label: "Notifications", link: "/ui-notifications", parentId: "baseUi" },
+        //         { id: "media", label: "Media object", link: "/ui-media", parentId: "baseUi" },
+        //         { id: "embedvideo", label: "Embed Video", link: "/ui-embed-video", parentId: "baseUi" },
+        //         { id: "typography", label: "Typography", link: "/ui-typography", parentId: "baseUi" },
+        //         { id: "lists", label: "Lists", link: "/ui-lists", parentId: "baseUi" },
+        //         { id: "links", label: "Links", link: "/ui-links", parentId: "baseUi", badgeColor: "success", badgeName: "New" },
+        //         { id: "general", label: "General", link: "/ui-general", parentId: "baseUi" },
+        //         { id: "ribbons", label: "Ribbons", link: "/ui-ribbons", parentId: "baseUi" },
+        //         { id: "utilities", label: "Utilities", link: "/ui-utilities", parentId: "baseUi" },
+        //     ],
+        // },
+        // {
+        //     id: "advanceUi",
+        //     label: "Advance UI",
+        //     icon: "ri-stack-line",
+        //     link: "/#",
+        //     click: function (e) {
+        //         e.preventDefault();
+        //         setIsAdvanceUi(!isAdvanceUi);
+        //         setIscurrentState('AdvanceUi');
+        //         updateIconSidebar(e);
+        //     },
+        //     stateVariables: isAdvanceUi,
+        //     subItems: [
+        //         { id: "nestablelist", label: "Nestable List", link: "/advance-ui-nestable", parentId: "advanceUi" },
+        //         { id: "scrollbar", label: "Scrollbar", link: "/advance-ui-scrollbar", parentId: "advanceUi" },
+        //         { id: "animation", label: "Animation", link: "/advance-ui-animation", parentId: "advanceUi" },
+        //         { id: "swiperslider", label: "Swiper Slider", link: "/advance-ui-swiper", parentId: "advanceUi" },
+        //         { id: "ratings", label: "Ratings", link: "/advance-ui-ratings", parentId: "advanceUi" },
+        //         { id: "highlight", label: "Highlight", link: "/advance-ui-highlight", parentId: "advanceUi" },
+        //     ],
+        // },
         {
             id: "widgets",
             label: "Widgets",
