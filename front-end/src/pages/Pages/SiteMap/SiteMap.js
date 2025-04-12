@@ -25,7 +25,7 @@ const SiteMap = () => {
                                                     <ul className="director">
                                                         <li>
                                                             <Link to="#"
-                                                                className="fw-semibold"><span>Velzon Admin</span></Link>
+                                                                className="fw-semibold"><span>Finity Analytics</span></Link>
                                                             <ul className="subdirector">
                                                                 <li><Link to="#" className="fw-semibold"><span>Contact Us</span></Link>
                                                                 </li>
@@ -37,8 +37,7 @@ const SiteMap = () => {
 
                                                                 <li className="department">
                                                                     <Link to="#"
-                                                                        className="fw-semibold"><span>Account
-                                                                            Management</span></Link>
+                                                                        className="fw-semibold"><span>Dasbhoards</span></Link>
                                                                     <ul>
                                                                         <li><Link to="#"><span>Sign
                                                                             Up</span></Link></li>
@@ -57,7 +56,7 @@ const SiteMap = () => {
                                                                 </li>
                                                                 <li className="department">
                                                                     <Link to="#"
-                                                                        className="fw-semibold"><span>About Us</span></Link>
+                                                                        className="fw-semibold"><span>Networks</span></Link>
                                                                     <ul>
                                                                         <li><Link
                                                                             to="#"><span>Overview</span></Link>
@@ -76,7 +75,7 @@ const SiteMap = () => {
                                                                 </li>
                                                                 <li className="department">
                                                                     <Link to="#"
-                                                                        className="fw-semibold"><span>Book a Trip</span></Link>
+                                                                        className="fw-semibold"><span>Blog</span></Link>
                                                                     <ul>
                                                                         <li><Link to="#"><span>Travel
                                                                             Details</span></Link></li>
