@@ -6,6 +6,8 @@ const Navdata = () => {
     //state data
     const [isDashboard, setIsDashboard] = useState(false);
     const [isApps, setIsApps] = useState(false);
+    const [isResearch, setIsResearch] = useState(false);
+
     const [isAuth, setIsAuth] = useState(false);
     const [isPages, setIsPages] = useState(false);
     const [isBaseUi, setIsBaseUi] = useState(false);
@@ -82,6 +84,9 @@ const Navdata = () => {
         }
         if (iscurrentState !== 'Apps') {
             setIsApps(false);
+        }
+        if (iscurrentState !== 'Research') {
+            setIsResearch(false);
         }
         if (iscurrentState !== 'Auth') {
             setIsAuth(false);
@@ -731,6 +736,39 @@ const Navdata = () => {
         //     ],
         // },
         {
+            id: "research",
+            label: "Research",
+            icon: "ri-honour-line",
+            link: "/#",
+            click: function (e) {
+                e.preventDefault();
+                setIsApps(!isResearch);
+                setIscurrentState('Research');
+                updateIconSidebar(e);
+            },
+            stateVariables: isResearch,
+            subItems: [
+                {
+                    id: "blogs",
+                    label: "Blogs",
+                    link: "/#",
+                    isChildItem: true,
+                    badgeColor: "success", badgeName: "New",
+                    click: function (e) {
+                        e.preventDefault();
+                        setIsBlog(!isBlog);
+                    },
+                    parentId: "research",
+                    stateVariables: isBlog,
+                    childItems: [
+                        { id: 1, label: "List View", link: "/pages-blog-list", parentId: "research" },
+                        { id: 2, label: "Grid View", link: "/pages-blog-grid", parentId: "research" },
+                        { id: 3, label: "Overview", link: "/pages-blog-overview", parentId: "research" },
+                    ]
+                }
+            ]
+        },
+        {
             id: "pages",
             label: "About",
             icon: "ri-pages-line",
@@ -780,7 +818,7 @@ const Navdata = () => {
                     id: "blogs",
                     label: "Blogs",
                     link: "/#",
-                    isChildItem: true,
+                    isChildItem: false,
                     badgeColor: "success", badgeName: "New",
                     click: function (e) {
                         e.preventDefault();
