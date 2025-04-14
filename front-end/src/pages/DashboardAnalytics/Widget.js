@@ -14,18 +14,18 @@ const Widget = () => {
                         <CardBody>
                             <div className="d-flex justify-content-between">
                                 <div>
-                                    <p className="fw-medium text-muted mb-0">Users</p>
+                                    <p className="fw-medium text-muted mb-0">Cryptocurrency Users</p>
                                     <h2 className="mt-4 fs-22 ff-secondary fw-semibold">
                                         <span className="counter-value">
                                             <CountUp
-                                                start={0}
-                                                end={28.05}
-                                                decimals={1}
+                                                start={500}
+                                                end={560}
+                                                separator=","
                                                 duration={4}
                                             />
-                                            0</span>k</h2>
+                                            </span>M</h2>
                                     <p className="mb-0 text-muted text-truncate"><span className="badge bg-light text-success mb-0">
-                                        <i className="ri-arrow-up-line align-middle"></i> 16.24 %
+                                        <i className="ri-arrow-up-line align-middle"></i> 2.24 %
                                     </span> vs. previous month</p>
                                 </div>
                                 <div>
@@ -48,18 +48,18 @@ const Widget = () => {
                         <CardBody>
                             <div className="d-flex justify-content-between">
                                 <div>
-                                    <p className="fw-medium text-muted mb-0">Sessions</p>
+                                    <p className="fw-medium text-muted mb-0">Bitcoin Daily Active Users</p>
                                     <h2 className="mt-4 fs-22 ff-secondary fw-semibold">
                                         <span className="counter-value" data-target="97.66">
                                             <CountUp
                                                 start={0}
-                                                end={97.66}
-                                                decimals={2}
+                                                end={850.000}
+                                                separator=","
                                                 duration={4}
                                             />
                                         </span>k</h2>
-                                    <p className="mb-0 text-muted text-truncate"><span className="badge bg-light text-danger mb-0">
-                                        <i className="ri-arrow-down-line align-middle"></i> 3.96 %
+                                    <p className="mb-0 text-muted text-truncate"><span className="badge bg-light text-success mb-0">
+                                        <i className="ri-arrow-up-line align-middle"></i> 3.96 %
                                     </span> vs. previous month</p>
                                 </div>
                                 <div>
@@ -84,22 +84,18 @@ const Widget = () => {
                         <CardBody>
                             <div className="d-flex justify-content-between">
                                 <div>
-                                    <p className="fw-medium text-muted mb-0">Avg. Visit Duration</p>
+                                    <p className="fw-medium text-muted mb-0">Avg. Bitcoin Transaction Fee</p>
                                     <h2 className="mt-4 fs-22 ff-secondary fw-semibold">
                                         <span className="counter-value" data-target="3">
                                             <CountUp
-                                                start={0}
-                                                end={3}
-                                                duration={4}
+                                                 start={0}
+                                                 end={1.75}
+                                                 duration={2}
+                                                 prefix="$"
+                                                 decimals={2}
                                             />
-                                        </span>m{" "}
-                                        <span className="counter-value" data-target="40">
-                                            <CountUp
-                                                start={0}
-                                                end={40}
-                                                duration={4}
-                                            />
-                                        </span>sec</h2>
+                                        </span>{" "}
+                                        </h2>
                                     <p className="mb-0 text-muted text-truncate"><span className="badge bg-light text-danger mb-0">
                                         <i className="ri-arrow-down-line align-middle"></i> 0.24 %
                                     </span> vs. previous month</p>
@@ -108,7 +104,7 @@ const Widget = () => {
                                     <div className="avatar-sm flex-shrink-0">
                                         <span className="avatar-title bg-info-subtle rounded-circle fs-2">
                                             <FeatherIcon
-                                                icon="clock"
+                                                icon="dollar-sign"
                                                 className="text-info"
                                             />
                                         </span>
@@ -124,16 +120,16 @@ const Widget = () => {
                         <CardBody>
                             <div className="d-flex justify-content-between">
                                 <div>
-                                    <p className="fw-medium text-muted mb-0">Bounce Rate</p>
+                                    <p className="fw-medium text-muted mb-0">Avg. Ethereum Gas Price</p>
                                     <h2 className="mt-4 fs-22 ff-secondary fw-semibold">
                                         <span className="counter-value" data-target="33.48">
                                             <CountUp
                                                 start={0}
-                                                end={33.48}
+                                                end={2.430}
                                                 decimals={2}
                                                 duration={4}
                                             />
-                                        </span>%</h2>
+                                        </span> Gwei</h2>
                                     <p className="mb-0 text-muted text-truncate"><span className="badge bg-light text-success mb-0">
                                         <i className="ri-arrow-up-line align-middle"></i> 7.05 %
                                     </span> vs. previous month</p>
@@ -142,7 +138,7 @@ const Widget = () => {
                                     <div className="avatar-sm flex-shrink-0">
                                         <span className="avatar-title bg-info-subtle rounded-circle fs-2">
                                             <FeatherIcon
-                                                icon="external-link"
+                                                icon="activity"
                                                 className="text-info"
                                             />
                                         </span>
