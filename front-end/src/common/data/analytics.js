@@ -46,18 +46,18 @@ const topPages = [
 // Charts Data
 
 const allData = [{
-    data: [1230, 1240, 590, 1255, 1250, 789, 960, 522, 1285, 729],
-    name: 'Sessions',
+    data: [45, 41, 39, 34, 34, 28, 27, 26, 15, 11],
+    name: '% of Population',
 }];
 
 const monthData = [{
     data: [820, 1320, 390, 1000, 850, 579, 630, 380, 825, 479],
-    name: 'Sessions',
+    name: '% of Population',
 }];
 
 const halfyearData = [{
-    data: [1010, 1140, 1290, 1255, 1050, 689, 800, 420, 1085, 589],
-    name: 'Sessions',
+    data: [40, 36, 35, 29, 25, 20, 23, 13, 9, 7],
+    name: '% of Population',
 }];
 
 

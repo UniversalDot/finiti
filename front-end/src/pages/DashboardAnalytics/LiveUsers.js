@@ -110,13 +110,13 @@ const LiveUsers = () => {
                                 <h4 className="card-title mb-0 flex-grow-1">Estimated % of Population Using Crypto</h4>
                                 <div className="d-flex gap-1">
                                     <button type="button" className={classNames({ active: periodType === "all" }, "btn btn-soft-secondary btn-sm")} onClick={() => { onChangeChartPeriod("all"); }}>
-                                        ALL
+                                        2024
                                     </button>
-                                    <button type="button" className={classNames({ active: periodType === "monthly" }, "btn btn-soft-info btn-sm")} onClick={() => { onChangeChartPeriod("monthly"); }}>
+                                    {/* <button type="button" className={classNames({ active: periodType === "monthly" }, "btn btn-soft-info btn-sm")} onClick={() => { onChangeChartPeriod("monthly"); }}>
                                         1M
-                                    </button>
+                                    </button> */}
                                     <button type="button" className={classNames({ active: periodType === "halfyearly" }, "btn btn-soft-secondary btn-sm")} onClick={() => { onChangeChartPeriod("halfyearly"); }}>
-                                        6M
+                                        2023
                                     </button>
                                 </div>
                             </div>

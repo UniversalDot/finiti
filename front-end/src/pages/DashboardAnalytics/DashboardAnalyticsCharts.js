@@ -195,7 +195,7 @@ const CountriesCharts = ({ dataColors, series }) => {
             show: false,
         },
         xaxis: {
-            categories: ['India', 'United States', 'China', 'Indonesia', 'Russia', 'Bangladesh', 'Canada', 'Brazil', 'Vietnam', 'UK'],
+            categories: ['Nigeria', 'Vietnam', 'Philippines', 'India', 'Brazil', 'Turkey', 'Argentina','USA', 'UK', 'Canada'],
         },
     };
     return (
