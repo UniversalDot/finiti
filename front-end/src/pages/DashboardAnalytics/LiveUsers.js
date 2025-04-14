@@ -107,7 +107,7 @@ const LiveUsers = () => {
                     <Col xl={12}>
                         <Card className="card-height-100">
                             <div className="card-header align-items-center d-flex">
-                                <h4 className="card-title mb-0 flex-grow-1">Cryptocurrency Users by Countries</h4>
+                                <h4 className="card-title mb-0 flex-grow-1">Estimated % of Population Using Crypto</h4>
                                 <div className="d-flex gap-1">
                                     <button type="button" className={classNames({ active: periodType === "all" }, "btn btn-soft-secondary btn-sm")} onClick={() => { onChangeChartPeriod("all"); }}>
                                         ALL
