@@ -44,7 +44,7 @@ const LiveUsers = () => {
         <React.Fragment>
             <Col xxl={7}>
                 <Row className="h-100">
-                    <Col xl={6}>
+                    {/* <Col xl={6}>
                         <Card className="card-height-100">
                             <div className="card-header align-items-center d-flex">
                                 <h4 className="card-title mb-0 flex-grow-1">Live Users By Country</h4>
@@ -102,12 +102,12 @@ const LiveUsers = () => {
                             </CardBody>
 
                         </Card>
-                    </Col>
+                    </Col> */}
 
-                    <Col xl={6}>
+                    <Col xl={12}>
                         <Card className="card-height-100">
                             <div className="card-header align-items-center d-flex">
-                                <h4 className="card-title mb-0 flex-grow-1">Sessions by Countries</h4>
+                                <h4 className="card-title mb-0 flex-grow-1">Cryptocurrency Users by Countries</h4>
                                 <div className="d-flex gap-1">
                                     <button type="button" className={classNames({ active: periodType === "all" }, "btn btn-soft-secondary btn-sm")} onClick={() => { onChangeChartPeriod("all"); }}>
                                         ALL
