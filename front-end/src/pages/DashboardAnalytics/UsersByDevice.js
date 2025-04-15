@@ -44,7 +44,7 @@ const UsersByDevice = () => {
             <Col xl={4}>
                 <Card className="card-height-100">
                     <CardHeader className="align-items-center d-flex">
-                        <h4 className="card-title mb-0 flex-grow-1">Users by Device</h4>
+                        <h4 className="card-title mb-0 flex-grow-1">Bitcoin Dominance</h4>
                         <div className="flex-shrink-0">
                             {/* <Dropdown className="card-header-dropdown" isOpen={isUserDropdown} toggle={toggleDropdown}>
                                 <DropdownToggle tag="a" className="text-reset dropdown-btn" role="button">
@@ -61,40 +61,40 @@ const UsersByDevice = () => {
                     </CardHeader>
                     <CardBody>
                         <div>
-                            <UsersByDeviceCharts series={chartData} dataColors='["--vz-primary", "--vz-warning", "--vz-info"]' />
+                            <UsersByDeviceCharts series={chartData} dataColors='["--vz-warning", "--vz-primary", "--vz-info"]' />
                         </div>
 
                         <div className="table-responsive mt-3">
                             <table className="table table-borderless table-sm table-centered align-middle table-nowrap mb-0">
                                 <tbody className="border-0">
                                     <tr>
-                                        <td><h4 className="text-truncate fs-14 fs-medium mb-0"><i className="ri-stop-fill align-middle fs-18 text-primary me-2"></i>Desktop Users</h4></td>
+                                        <td><h4 className="text-truncate fs-14 fs-medium mb-0"><i className="ri-stop-fill align-middle fs-18 text-warning me-2"></i>Bitcoin</h4></td>
                                         <td><p className="text-muted mb-0">
-                                            <FeatherIcon
+                                            {/* <FeatherIcon
                                                 icon="users"
                                                 className="me-2 icon-sm"
-                                            />
-                                            {chartData[0]}k</p></td>
+                                            /> */}
+                                            {chartData[0]} %</p></td>
                                         <td className="text-end"><p className="text-success fw-medium fs-12 mb-0"><i className="ri-arrow-up-s-fill fs-5 align-middle"></i>2.08%</p></td>
                                     </tr>
                                     <tr>
-                                        <td><h4 className="text-truncate fs-14 fs-medium mb-0"><i className="ri-stop-fill align-middle fs-18 text-warning me-2"></i>Mobile Users</h4></td>
+                                        <td><h4 className="text-truncate fs-14 fs-medium mb-0"><i className="ri-stop-fill align-middle fs-18 text-primary me-2"></i>Ethereum</h4></td>
                                         <td><p className="text-muted mb-0">
-                                            <FeatherIcon
+                                            {/* <FeatherIcon
                                                 icon="users"
                                                 className="me-2 icon-sm"
-                                            />
-                                            {chartData[1]}k</p></td>
+                                            /> */}
+                                            {chartData[1]} %</p></td>
                                         <td className="text-end"><p className="text-danger fw-medium fs-12 mb-0"><i className="ri-arrow-down-s-fill fs-5 align-middle"></i>10.52%</p></td>
                                     </tr>
                                     <tr>
-                                        <td><h4 className="text-truncate fs-14 fs-medium mb-0"><i className="ri-stop-fill align-middle fs-18 text-info me-2"></i>Tablet Users</h4></td>
+                                        <td><h4 className="text-truncate fs-14 fs-medium mb-0"><i className="ri-stop-fill align-middle fs-18 text-info me-2"></i>Others</h4></td>
                                         <td><p className="text-muted mb-0">
-                                            <FeatherIcon
+                                            {/* <FeatherIcon
                                                 icon="users"
                                                 className="me-2 icon-sm"
-                                            />
-                                            {chartData[2]}k</p></td>
+                                            /> */}
+                                            {chartData[2]} %</p></td>
                                         <td className="text-end"><p className="text-danger fw-medium fs-12 mb-0"><i className="ri-arrow-down-s-fill fs-5 align-middle"></i>7.36%</p></td>
                                     </tr>
                                 </tbody>

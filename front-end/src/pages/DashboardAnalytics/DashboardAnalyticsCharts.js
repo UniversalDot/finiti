@@ -215,7 +215,7 @@ const CountriesCharts = ({ dataColors, series }) => {
 const UsersByDeviceCharts = ({ dataColors, series }) => {
     var dountchartUserDeviceColors = getChartColorsArray(dataColors);
     const options = {
-        labels: ["Desktop", "Mobile", "Tablet"],
+        labels: ["Bitcoin", "Ethereum", "Other"],
         chart: {
             type: "donut",
             height: 219,
@@ -253,7 +253,7 @@ const UsersByDeviceCharts = ({ dataColors, series }) => {
         yaxis: {
             labels: {
                 formatter: function (value) {
-                    return value + 'k Users';
+                    return value + '%';
                 }
             },
             tickAmount: 4,

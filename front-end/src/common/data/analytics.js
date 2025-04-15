@@ -96,7 +96,7 @@ const yaeraudiencesMetricsData = [{
 
 
 // Users by Device
-const todayDeviceData = [78.56, 105.02, 42.89];
+const todayDeviceData = [62.9, 7.3, 29.7];
 
 const lastWeekDeviceData = [81.56, 50.02, 24.89];
 
