@@ -28,7 +28,7 @@ const AudiencesMetrics = () => {
     };
 
     useEffect(() => {
-        dispatch(getAudiencesMetricsChartsData("all"));
+        dispatch(getAudiencesMetricsChartsData("yearly"));
     }, [dispatch]);
 
 
@@ -37,9 +37,9 @@ const AudiencesMetrics = () => {
             <Col xl={6}>
                 <Card>
                     <CardHeader className="border-0 align-items-center d-flex">
-                        <h4 className="card-title mb-0 flex-grow-1">Audiences Metrics</h4>
+                        <h4 className="card-title mb-0 flex-grow-1">Bitcoin Transactions</h4>
                         <div className="d-flex gap-1">
-                            <button type="button" className="btn btn-soft-secondary btn-sm" onClick={() => { onChangeChartPeriod("all"); }}>
+                            {/* <button type="button" className="btn btn-soft-secondary btn-sm" onClick={() => { onChangeChartPeriod("all"); }}>
                                 ALL
                             </button>
                             <button type="button" className="btn btn-soft-secondary btn-sm" onClick={() => { onChangeChartPeriod("monthly"); }}>
@@ -47,7 +47,7 @@ const AudiencesMetrics = () => {
                             </button>
                             <button type="button" className="btn btn-soft-secondary btn-sm" onClick={() => { onChangeChartPeriod("halfyearly"); }}>
                                 6M
-                            </button>
+                            </button> */}
                             <button type="button" className="btn btn-soft-primary btn-sm" onClick={() => { onChangeChartPeriod("yearly"); }}>
                                 1Y
                             </button>
@@ -60,13 +60,13 @@ const AudiencesMetrics = () => {
                                     <h5 className="mb-1"><span className="counter-value" data-target="854">
                                         <CountUp
                                             start={0}
-                                            end={854}
+                                            end={16.02}
                                             duration={3}
                                         />
-                                    </span>
-                                        <span className="text-success ms-1 fs-12">49%<i className="ri-arrow-right-up-line ms-1 align-middle"></i></span>
+                                    </span>M
+                                        <span className="text-success ms-1 fs-12">4%<i className="ri-arrow-right-up-line ms-1 align-middle"></i></span>
                                     </h5>
-                                    <p className="text-muted mb-0">Avg. Session</p>
+                                    <p className="text-muted mb-0">Avg. Transactions/Year</p>
                                 </div>
                             </Col>
                             <Col xs={6} sm={4}>
@@ -74,34 +74,29 @@ const AudiencesMetrics = () => {
                                     <h5 className="mb-1"><span className="counter-value" data-target="1278">
                                         <CountUp
                                             start={0}
-                                            end={1278}
+                                            end={19}
                                             duration={3}
                                             separator=","
                                         />
-                                    </span>
-                                        <span className="text-success ms-1 fs-12">60%<i className="ri-arrow-right-up-line ms-1 align-middle"></i></span>
+                                    </span>T
+                                        <span className="text-success ms-1 fs-12">118.4%<i className="ri-arrow-right-up-line ms-1 align-middle"></i></span>
                                     </h5>
-                                    <p className="text-muted mb-0">Conversion Rate</p>
+                                    <p className="text-muted mb-0">Total value transferred (in USD)</p>
                                 </div>
                             </Col>
                             <Col xs={6} sm={4}>
                                 <div className="p-3 border border-dashed border-start-0 border-end-0">
                                     <h5 className="mb-1"><span className="counter-value" data-target="3">
-                                        <CountUp
-                                            start={0}
-                                            end={3}
-                                            duration={3}
-                                        />
-                                    </span>m <span className="counter-value" data-target="40">
+                                    </span> <span className="counter-value" data-target="40">
                                             <CountUp
                                                 start={0}
-                                                end={40}
+                                                end={120}
                                                 duration={3}
                                             />
-                                        </span>sec
+                                        </span> TWh
                                         <span className="text-success ms-1 fs-12">37%<i className="ri-arrow-right-up-line ms-1 align-middle"></i></span>
                                     </h5>
-                                    <p className="text-muted mb-0">Avg. Session Duration</p>
+                                    <p className="text-muted mb-0">Avg. Energy Use/Year</p>
                                 </div>
                             </Col>
                         </Row>

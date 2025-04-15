@@ -61,7 +61,7 @@ const halfyearData = [{
 }];
 
 
-// Audiences Metrics
+// Bitcoin Transactions
 const allaudiencesMetricsData = [{
     name: 'Last Year',
     data: [25.3, 12.5, 20.2, 18.5, 40.4, 25.4, 15.8, 22.3, 19.2, 25.3, 12.5, 20.2]
@@ -88,10 +88,10 @@ const halfyearaudiencesMetricsData = [{
 
 const yaeraudiencesMetricsData = [{
     name: 'Last Year',
-    data: [45.3, 32.5, 40.2, 18.5, 40.4, 25.4, 35.8, 52.3, 79.2, 35.3, 72.5, 70.2]
+    data: [14.74, 10.57, 11.63, 14.48, 18.19, 17.42, 19.52, 18.55, 17.76, 20.48, 16.11, 12.8]
 }, {
     name: 'Current Year',
-    data: [76.2, 62.4, 28.2, 30.5, 26.4, 60.4, 40.2, 39.6, 40.9, 76.2, 32.4, 98.2]
+    data: [11.55, 11.38, 12.04, 5.26, 0, 0, 0, 0, 0, 0, 0, 0]
 }];
 
 
