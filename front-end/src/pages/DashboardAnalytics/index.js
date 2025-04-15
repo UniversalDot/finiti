@@ -30,9 +30,10 @@ document.title="Analytics | Infinite Insights. Finite Decisions. ";
                     <Row>
                         <AudiencesMetrics />
                         <AudiencesSessions />
+                        <UsersByDevice />
                     </Row>
                     <Row>
-                        <UsersByDevice />
+                        {/* <UsersByDevice /> */}
                         <TopReferrals />
                         <TopPages />
                     </Row>

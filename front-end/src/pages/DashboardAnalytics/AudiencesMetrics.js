@@ -34,7 +34,7 @@ const AudiencesMetrics = () => {
 
     return (
         <React.Fragment>
-            <Col xl={6}>
+            <Col xl={8}>
                 <Card>
                     <CardHeader className="border-0 align-items-center d-flex">
                         <h4 className="card-title mb-0 flex-grow-1">Bitcoin Transactions</h4>

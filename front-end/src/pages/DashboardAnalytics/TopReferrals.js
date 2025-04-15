@@ -8,7 +8,7 @@ import illustrator from "../../assets/images/illustrator-1.png";
 const TopReferrals = () => {
     return (
         <React.Fragment>
-            <Col xl={4} md={6}>
+            {/* <Col xl={4} md={6}>
                 <Card className="card-height-100">
                     <CardHeader className="align-items-center d-flex">
                         <h4 className="card-title mb-0 flex-grow-1">Top Referrals Pages</h4>
@@ -94,7 +94,7 @@ const TopReferrals = () => {
 
                     </CardBody>
                 </Card>
-            </Col>
+            </Col> */}
         </React.Fragment>
     );
 };

@@ -8,7 +8,7 @@ const TopPages = () => {
     const toggleDropdown = () => { setTopPageDropdown(!isTopPageDropdown); };
     return (
         <React.Fragment>
-            <Col xl={4} md={6}>
+            {/* <Col xl={4} md={6}>
                 <Card className="card-height-100">
                     <CardHeader className="align-items-center d-flex">
                         <h4 className="card-title mb-0 flex-grow-1">Top Pages</h4>
@@ -51,7 +51,7 @@ const TopPages = () => {
                         </div>
                     </CardBody>
                 </Card>
-            </Col>
+            </Col> */}
         </React.Fragment>
     );
 };

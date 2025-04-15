@@ -33,7 +33,7 @@ const AudiencesSessions = () => {
 
     return (
         <React.Fragment>
-            <Col xl={6}>
+            {/* <Col xl={6}>
                 <Card className="card-height-100">
                     <CardHeader className="align-items-center d-flex">
                         <h4 className="card-title mb-0 flex-grow-1">Audiences Sessions by Country</h4>
@@ -57,7 +57,7 @@ const AudiencesSessions = () => {
                         </div>
                     </div>
                 </Card>
-            </Col>
+            </Col> */}
         </React.Fragment>
     );
 };

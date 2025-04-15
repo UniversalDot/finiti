@@ -46,7 +46,7 @@ const UsersByDevice = () => {
                     <CardHeader className="align-items-center d-flex">
                         <h4 className="card-title mb-0 flex-grow-1">Users by Device</h4>
                         <div className="flex-shrink-0">
-                            <Dropdown className="card-header-dropdown" isOpen={isUserDropdown} toggle={toggleDropdown}>
+                            {/* <Dropdown className="card-header-dropdown" isOpen={isUserDropdown} toggle={toggleDropdown}>
                                 <DropdownToggle tag="a" className="text-reset dropdown-btn" role="button">
                                     <span className="text-muted fs-16"><i className="mdi mdi-dots-vertical align-middle"></i></span>
                                 </DropdownToggle>
@@ -56,7 +56,7 @@ const UsersByDevice = () => {
                                     <DropdownItem onClick={() => { onChangeChartPeriod("lastMonth"); }} className={seletedMonth === "lastMonth" ? "active" : ""}>Last Month</DropdownItem>
                                     <DropdownItem onClick={() => { onChangeChartPeriod("currentYear"); }} className={seletedMonth === "currentYear" ? "active" : ""}>Current Year</DropdownItem>
                                 </DropdownMenu>
-                            </Dropdown>
+                            </Dropdown> */}
                         </div>
                     </CardHeader>
                     <CardBody>
