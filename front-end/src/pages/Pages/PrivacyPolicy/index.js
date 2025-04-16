@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
                     <div className="text-center">
                       <h3>Privacy Policy</h3>
                       <p className="mb-0 text-muted">
-                        Last update: 16 Sept, 2022
+                        Last update: 16 April, 2025
                       </p>
                     </div>
                   </CardBody>
