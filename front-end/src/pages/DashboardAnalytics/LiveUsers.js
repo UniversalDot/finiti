@@ -122,7 +122,7 @@ const LiveUsers = () => {
                             </div>
                             <div className="card-body p-0">
                                 <div>
-                                    <CountriesCharts series={countryData} dataColors='["--vz-primary", "--vz-primary", "--vz-primary", "--vz-primary", "--vz-secondary", "--vz-primary", "--vz-primary", "--vz-primary", "--vz-primary", "--vz-primary"]' />
+                                    <CountriesCharts series={countryData} dataColors='["--vz-secondary", "--vz-primary", "--vz-secondary", "--vz-primary", "--vz-secondary", "--vz-primary", "--vz-secondary", "--vz-primary", "--vz-secondary", "--vz-primary"]' />
                                 </div>
                             </div>
                         </Card>
