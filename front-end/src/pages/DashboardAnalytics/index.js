@@ -22,7 +22,7 @@ document.title="Analytics | Infinite Insights. Finite Decisions. ";
                     <BreadCrumb title="Analytics" pageTitle="Dashboards" />
                     <Row>
                         <Col xxl={5}>
-                            <UpgradeAccountNotise />
+                            {/* <UpgradeAccountNotise /> */}
                             <Widget />
                         </Col>
                         <LiveUsers />
