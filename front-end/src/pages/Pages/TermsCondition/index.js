@@ -37,128 +37,94 @@ const TermsCondition = () => {
                 </div>
                 <CardBody className="p-4">
                   <div>
-                    <h5>Welcome to Velzon!</h5>
-                    <p className="text-muted">
-                      These terms and conditions outline the rules and
-                      regulations for the use of Company Name's Website, located
-                      at Website.com.
+                    <h5>Terms & Conditions</h5>
+                    <p class="text-muted">
+                      Please read these terms and conditions ("terms and conditions", "terms") carefully before using the <a href="https://finitianalytics.com">https://finitianalytics.com</a> website (“website”, "service") operated by UNIVERSALDOT OU ("us", "we", "our").
                     </p>
-                    <p className="text-muted">
-                      By accessing this website we assume you accept these terms
-                      and conditions. Do not continue to use Website Name if you
-                      do not agree to take all of the terms and conditions
-                      stated on this page.
-                    </p>
-                    <p className="text-muted">
-                      Most interactive websites use cookies to let us retrieve
-                      the user's details for each visit. Cookies are used by our
-                      website to enable the functionality of certain areas to
-                      make it easier for people visiting our website. Some of
-                      our affiliate/advertising partners may also use cookies.
+                    <p class="text-muted">
+                      By using this website, you certify that you have read and reviewed this Agreement and that you agree to comply with its terms. If you do not want to be bound by the terms of this Agreement, you are advised to stop using the website accordingly. UNIVERSALDOT OU only grants use and access of this website, its products, and its services to those who have accepted its terms.
                     </p>
                   </div>
 
                   <div>
-                    <h5>License</h5>
-                    <p className="text-muted">
-                      Unless otherwise stated, Company Name and/or its licensors
-                      own the intellectual property rights for all material on
-                      Website Name. All intellectual property rights are
-                      reserved. You may access this from Website Name for your
-                      own personal use subjected to restrictions set in these
-                      terms and conditions.
-                    </p>
-                    <p className="text-muted">You must not:</p>
-                    <ul className="text-muted vstack gap-2">
-                      <li>Republish material from Website Name</li>
-                      <li>
-                        Sell, rent or sub-license material from Website Name
-                      </li>
-                      <li>
-                        Reproduce, duplicate or copy material from Website Name
-                      </li>
-                      <li>Redistribute content from Website Name</li>
-                    </ul>
-                    <p className="text-muted">
-                      This Agreement shall begin on the date hereof.
-                    </p>
-                    <p className="text-muted">
-                      Parts of this website offer an opportunity for users to
-                      post and exchange opinions and information in certain
-                      areas of the website. Company Name does not filter, edit,
-                      publish or review Comments prior to their presence on the
-                      website. Comments do not reflect the views and opinions of
-                      Company Name,its agents and/or affiliates.
+                    <h5>Privacy Policy</h5>
+                    <p class="text-muted">
+                      Before you continue using our website, we advise you to read our privacy policy <a href="#">[link to privacy policy]</a> regarding our user data collection. It will help you better understand our practices.
                     </p>
                   </div>
 
                   <div>
-                    <p className="text-muted">
-                      Company Name reserves the right to monitor all Comments
-                      and to remove any Comments which can be considered
-                      inappropriate, offensive or causes breach of these Terms
-                      and Conditions.
+                    <h5>Age Restriction</h5>
+                    <p class="text-muted">
+                      You must be at least 18 (eighteen) years of age before you can use this website. By using this website, you warrant that you are at least 18 years of age and you may legally adhere to this Agreement. UNIVERSALDOT OU assumes no responsibility for liabilities related to age misrepresentation.
                     </p>
-                    <p className="text-muted">
-                      You warrant and represent that:
+                  </div>
+
+                  <div>
+                    <h5>Intellectual Property</h5>
+                    <p class="text-muted">
+                      You agree that all materials, products, and services provided on this website are the property of UNIVERSALDOT OU, its affiliates, directors, officers, employees, agents, suppliers, or licensors including all copyrights, trade secrets, trademarks, patents, and other intellectual property. You also agree that you will not reproduce or redistribute UNIVERSALDOT OU’s intellectual property in any way, including electronic, digital, or new trademark registrations.
                     </p>
-                    <ul className="text-muted vstack gap-2">
-                      <li>
-                        You are entitled to post the Comments on our website and
-                        have all necessary licenses and consents to do so;
-                      </li>
-                      <li>
-                        The Comments do not invade any intellectual property
-                        right, including without limitation copyright, patent or
-                        trademark of any third party;
-                      </li>
-                      <li>
-                        The Comments do not contain any defamatory, libelous,
-                        offensive, indecent or otherwise unlawful material which
-                        is an invasion of privacy
-                      </li>
-                      <li>
-                        The Comments will not be used to solicit or promote
-                        business or custom or present commercial activities or
-                        unlawful activity.
-                      </li>
-                    </ul>
-                    <p className="text-muted">
-                      You hereby grant Company Name a non-exclusive license to
-                      use, reproduce, edit and authorize others to use,
-                      reproduce and edit any of your Comments in any and all
-                      forms, formats or media.
+                    <p class="text-muted">
+                      You grant UNIVERSALDOT OU a royalty-free and non-exclusive license to display, use, copy, transmit, and broadcast the content you upload and publish. For issues regarding intellectual property claims, you should contact the company in order to come to an agreement.
                     </p>
-                    <p className="text-muted">
-                      Approved organizations may hyperlink to our Website as
-                      follows:
+                  </div>
+
+                  <div>
+                    <h5>User Accounts</h5>
+                    <p class="text-muted">
+                      As a user of this website, you may be asked to register with us and provide private information. You are responsible for ensuring the accuracy of this information, and you are responsible for maintaining the safety and security of your identifying information. You are also responsible for all activities that occur under your account or password.
                     </p>
-                    <ul className="text-muted vstack gap-2">
-                      <li>By use of our corporate name; or</li>
-                      <li>
-                        By use of the uniform resource locator being linked to;
-                        or
-                      </li>
-                      <li>
-                        By use of any other description of our Website being
-                        linked to that makes sense within the context and format
-                        of content on the linking party's site.
-                      </li>
-                    </ul>
-                    <p className="text-muted fw-semibold">
-                      No use of Company Name's logo or other artwork will be
-                      allowed for linking absent a trademark license agreement.
+                    <p class="text-muted">
+                      If you think there are any possible issues regarding the security of your account on the website, inform us immediately so we may address them accordingly.
+                    </p>
+                    <p class="text-muted">
+                      We reserve all rights to terminate accounts, edit or remove content, and cancel orders at our sole discretion.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h5>Applicable Law</h5>
+                    <p class="text-muted">
+                      By using this website, you agree that the laws of the Netherlands, without regard to principles of conflict laws, will govern these terms and conditions, or any dispute of any sort that might come between UNIVERSALDOT OU and you, or its business partners and associates.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h5>Disputes</h5>
+                    <p class="text-muted">
+                      Any dispute related in any way to your use of this website or to products you purchase from us shall be arbitrated by the appropriate court in the Netherlands, and you consent to the exclusive jurisdiction and venue of such courts.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h5>Indemnification</h5>
+                    <p class="text-muted">
+                      You agree to indemnify UNIVERSALDOT OU and its affiliates and hold UNIVERSALDOT OU harmless against legal claims and demands that may arise from your use or misuse of our services. We reserve the right to select our own legal counsel.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h5>Limitation on Liability</h5>
+                    <p class="text-muted">
+                      UNIVERSALDOT OU is not liable for any damages that may occur to you as a result of your misuse of our website.
+                    </p>
+                    <p class="text-muted">
+                      UNIVERSALDOT OU reserves the right to edit, modify, and change this Agreement at any time. We shall let our users know of these changes through electronic mail. This Agreement is an understanding between UNIVERSALDOT OU and the user, and this supersedes and replaces all prior agreements regarding the use of this website.
+                    </p>
+                    <p class="text-muted">
+                    By using this website and its services, you explicitly accept this Agreement.
                     </p>
                   </div>
 
                   <div className="text-end">
-                    <Link to="#" className="btn btn-success me-1">
+                    {/* <Link to="#" className="btn btn-success me-1">
                       Accept
                     </Link>
                     <Link to="#" className="btn btn-outline-danger">
                       <i className="ri-close-line align-bottom me-1"></i>{" "}
                       Decline
-                    </Link>
+                    </Link> */}
                   </div>
                 </CardBody>
               </Card>
