@@ -180,7 +180,7 @@ const Navdata = () => {
                 // },
                 {
                     id: "crypto",
-                    label: "Crypto",
+                    label: "Crypto Market",
                     link: "/dashboard-crypto",
                     parentId: "dashboard",
                 },
@@ -190,12 +190,12 @@ const Navdata = () => {
                 //     link: "/dashboard-projects",
                 //     parentId: "dashboard",
                 // },
-                {
-                    id: "nft",
-                    label: "NFT",
-                    link: "/dashboard-nft",
-                    parentId: "dashboard",
-                },
+                // {
+                //     id: "nft",
+                //     label: "NFT",
+                //     link: "/dashboard-nft",
+                //     parentId: "dashboard",
+                // },
                 // {
                 //     id: "job",
                 //     label: "Job",
