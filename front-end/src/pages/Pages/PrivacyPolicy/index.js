@@ -44,7 +44,7 @@ const PrivacyPolicy = () => {
                         className="text-success icon-dual-success icon-xs"
                       />
                     </div>
-                    <div className="flex-grow-1">
+                    {/* <div className="flex-grow-1">
                       <h5>Privacy Policy for velzon</h5>
                       <p className="text-muted">
                         At Website Name, accessible at Website.com, one of our
@@ -104,10 +104,53 @@ const PrivacyPolicy = () => {
                           </p>
                         </li>
                       </ul>
+                    </div> */}
+
+
+                    <div class="flex-grow-1">
+                      <h5>Privacy Policy</h5>
+                      <p class="text-muted">
+                        This Privacy Policy describes the policies of UNIVERSALDOT OÜ, Kesklinna linnaosa, Ahtri tn 12, Harju maakond 15551, Estonia, email: info@universaldot.foundation, on the collection, use, and disclosure of your information that we collect when you use our website (<a href="https://finitianalytics.com/">https://finitianalytics.com/</a>). By accessing or using the Service, you consent to the collection, use, and disclosure of your information in accordance with this Privacy Policy. If you do not consent to the same, please do not access or use the Service.
+                      </p>
+                      <p class="text-muted">
+                        We may modify this Privacy Policy at any time without any prior notice to you and will post the revised Privacy Policy on the Service. The revised Policy will be effective 180 days from when the revised Policy is posted in the Service, and your continued access or use of the Service after such time will constitute your acceptance of the revised Privacy Policy. We therefore recommend that you periodically review this page.
+                      </p>
+                      
+                      <p class="text-muted">Information We Collect:</p>
+                      <ul class="text-muted">
+                        <li>Name</li>
+                        <li>Email</li>
+                      </ul>
+                      <p class="text-muted">How We Use Your Information:</p>
+                      <ul class="text-muted vstack gap-2">
+                        <li>Enforce Terms & Conditions</li>
+                        <li>Administrative purposes</li>
+                      </ul>
+                      <p class="text-muted">
+                        If we want to use your information for any other purpose, we will ask you for consent and will use your information only upon receiving your consent and then, only for the purpose(s) for which consent was granted unless required otherwise by law.
+                      </p>
+                      <p class="text-muted">
+                        We will retain your personal information with us for 90 days to 2 years after users terminate their accounts or as long as necessary to fulfill the purposes detailed in this Privacy Policy. Residual anonymous and aggregate information, neither of which identifies you (directly or indirectly), may be stored indefinitely.
+                      </p>
+                      <p class="text-muted">
+                        Your Rights: Depending on applicable law, you may have rights including access, rectification, erasure, data portability, restriction or objection to processing, and withdrawing consent. To exercise these rights, contact us at info@universaldot.foundation. We will respond according to applicable law.
+                      </p>
+                      <p class="text-muted">
+                        For information about our use of cookies and related technologies, please refer to our Cookie Policy.
+                      </p>
+                      <p class="text-muted">
+                        We use reasonable security measures to protect your information but cannot guarantee absolute security. Transmit data at your own risk.
+                      </p>
+                      <p class="text-muted">
+                        Our Service may contain links to third-party websites whose privacy practices we do not control. Review the privacy policies of these websites separately.
+                      </p>
+                      <p class="text-muted">
+                        If you have queries or concerns, email our Grievance Officer at info@universaldot.foundation. We will address your concerns in accordance with applicable law.
+                      </p>
                     </div>
                   </div>
 
-                  <div className="d-flex">
+                  {/* <div className="d-flex">
                     <div className="flex-shrink-0 me-3">
                       <FeatherIcon
                         icon="check-circle"
@@ -190,12 +233,12 @@ const PrivacyPolicy = () => {
                         </b>
                       </p>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="text-end">
-                    <Link to="#!" className="btn btn-secondary">
+                    {/* <Link to="#!" className="btn btn-secondary">
                       I'm Understand
-                    </Link>
+                    </Link> */}
                   </div>
                 </CardBody>
               </Card>
