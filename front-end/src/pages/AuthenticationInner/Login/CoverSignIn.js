@@ -22,7 +22,7 @@ document.title="Cover SignIn | Infinite Insights. Finite Decisions. ";
                                             <div className="p-lg-5 p-4">
                                                 <div>
                                                     <h5 className="text-primary">Welcome Back !</h5>
-                                                    <p className="text-muted">Sign in to continue to Velzon.</p>
+                                                    <p className="text-muted">Sign in to continue to FINITY.</p>
                                                 </div>
 
                                                 <div className="mt-4">
