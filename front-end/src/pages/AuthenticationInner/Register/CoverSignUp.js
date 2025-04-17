@@ -140,7 +140,7 @@ const CoverSignUp = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="text-center">
-                                    <p className="mb-0">{new Date().getFullYear()} finitianalytics.com. Crafted with <i className="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                                    <p className="mb-0">{new Date().getFullYear()} finitianalytics.com. Crafted with <i className="mdi mdi-heart text-danger"></i> by Universaldot</p>
                                 </div>
                             </div>
                         </div>

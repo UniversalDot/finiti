@@ -86,7 +86,7 @@ document.title="Cover SignIn | Infinite Insights. Finite Decisions. ";
                         <Row>
                             <Col lg={12}>
                                 <div className="text-center">
-                                    <p className="mb-0">&copy; {new Date().getFullYear()} finitianalytics.com. Crafted with <i className="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                                    <p className="mb-0">&copy; {new Date().getFullYear()} finitianalytics.com. Crafted with <i className="mdi mdi-heart text-danger"></i> by Universaldot</p>
                                 </div>
                             </Col>
                         </Row>
