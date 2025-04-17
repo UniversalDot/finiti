@@ -22,7 +22,7 @@ document.title ="Success Message | Infinite Insights. Finite Decisions. ";
                                                 <img src={logoLight} alt="" height="20" />
                                             </Link>
                                         </div>
-                                        <p className="mt-3 fs-15 fw-medium">Premium Admin & Dashboard Template</p>
+                                        <p className="mt-3 fs-15 fw-medium">Infinite Insights. Finite Decisions.</p>
                                     </div>
                                 </Col>
                             </Row>
