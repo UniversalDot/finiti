@@ -169,12 +169,12 @@ document.title="FAQs | Infinite Insights. Finite Decisions. ";
                                                         onClick={t_col1}
                                                         style={{ cursor: "pointer" }}
                                                       >
-                                                          What is Lorem Ipsum ?
+                                                          What is Finiti  Analytics?
                                                       </button>
                                                     </h2>
                                                     <Collapse isOpen={col1} className="accordion-collapse">
                                                         <div className="accordion-body">
-                                                            If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing European languages. It will be as simple their most common words.
+                                                        Finiti Analytics is a next-generation platform designed to provide institutional-grade data, research, and insights into the rapidly evolving blockchain and digital asset ecosystem. Finiti Analytics empowers investors, developers, and decision-makers with transparent, high-quality information to navigate the complexities of the blockchain industry and the crypto economy.
                                                         </div>
                                                     </Collapse>
                                                 </div>
@@ -190,12 +190,12 @@ document.title="FAQs | Infinite Insights. Finite Decisions. ";
                                                       onClick={t_col2}
                                                       style={{ cursor: "pointer" }}
                                                     >
-                                                            Why do we use it ?
+                                                            What do we provide?
                                                         </button>
                                                     </h2>
                                                     <Collapse isOpen={col2} className="accordion-collapse">
                                                         <div className="accordion-body">
-                                                            The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is.
+                                                        Finiti Analytics delivers the critical infrastructure needed for informed analysis and strategic decision-making through a combination of real-time market intelligence, comprehensive research reports, and advanced analytics tools, 
                                                         </div>
                                                     </Collapse>
                                                 </div>
@@ -211,12 +211,12 @@ document.title="FAQs | Infinite Insights. Finite Decisions. ";
                                                       onClick={t_col3}
                                                       style={{ cursor: "pointer" }}
                                                     >
-                                                            Where does it come from ?
+                                                            Where does the data come from?
                                                         </button>
                                                     </h2>
                                                     <Collapse isOpen={col3} className="accordion-collapse">
                                                         <div className="accordion-body">
-                                                            he wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
+                                                        Finity Analytics sources its data directly from blockchain networks via live node integrations, enabling access to real-time protocol and network-level metrics. This is complemented by market and financial data from trusted aggregators such as CoinMarketCap and CoinGecko to provide a holistic analytical view.
                                                         </div>
                                                     </Collapse>
                                                 </div>
@@ -232,13 +232,12 @@ document.title="FAQs | Infinite Insights. Finite Decisions. ";
                                                       onClick={t_col4}
                                                       style={{ cursor: "pointer" }}
                                                     >
-                                                            Where can I get some ?
+                                                            Where can I sign up ?
                                                         </button>
                                                     </h2>
                                                     <Collapse isOpen={col4} className="accordion-collapse">
                                                         <div className="accordion-body">
-                                                            Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis aliquam ultrices mauris.
-                                                        </div>
+                                                        Users can sign up for Finity Analytics by visiting our official website at finitianalytics.com. Membership is currently free for all users, though we are considering introducing paid tiers with advanced features in the future.                                                        </div>
                                                     </Collapse>
                                                 </div>
                                             </div>
