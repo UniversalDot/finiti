@@ -317,23 +317,47 @@ const Navdata = () => {
                 //         { id: 10, label: "Seller Details", link: "/apps-ecommerce-seller-details", parentId: "apps" },
                 //     ]
                 // },
-                // {
-                //     id: "appsprojects",
-                //     label: "Projects",
-                //     link: "/#",
-                //     isChildItem: true,
-                //     click: function (e) {
-                //         e.preventDefault();
-                //         setIsProjects(!isProjects);
-                //     },
-                //     parentId: "apps",
-                //     stateVariables: isProjects,
-                //     childItems: [
-                //         { id: 1, label: "List", link: "/apps-projects-list", parentId: "apps", },
-                //         { id: 2, label: "Overview", link: "/apps-projects-overview", parentId: "apps", },
-                //         { id: 3, label: "Create Project", link: "/apps-projects-create", parentId: "apps", },
-                //     ]
-                // },
+                {
+                    id: "analytics",
+                    label: "Bitcoin",
+                    link: "/apps-crypto-buy-sell",
+                    parentId: "apps",
+                },
+                {
+                    id: "analytics",
+                    label: "Polkadot",
+                    link: "/apps-crypto-buy-sell",
+                    parentId: "apps",
+                },
+                {
+                    id: "analytics",
+                    label: "Ethereum",
+                    link: "/apps-crypto-buy-sell",
+                    parentId: "apps",
+                },
+                {
+                    id: "analytics",
+                    label: "Filecoin",
+                    link: "/apps-crypto-buy-sell",
+                    parentId: "apps",
+                },
+                {
+                    id: "appsprojects",
+                    label: "Projects",
+                    link: "/#",
+                    isChildItem: true,
+                    click: function (e) {
+                        e.preventDefault();
+                        setIsProjects(!isProjects);
+                    },
+                    parentId: "apps",
+                    stateVariables: isProjects,
+                    // childItems: [
+                    //     { id: 1, label: "List", link: "/apps-projects-list", parentId: "apps", },
+                    //     { id: 2, label: "Overview", link: "/apps-projects-overview", parentId: "apps", },
+                    //     { id: 3, label: "Create Project", link: "/apps-projects-create", parentId: "apps", },
+                    // ]
+                },
                 // {
                 //     id: "tasks",
                 //     label: "Tasks",
