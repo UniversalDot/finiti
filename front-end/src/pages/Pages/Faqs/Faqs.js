@@ -367,13 +367,12 @@ document.title="FAQs | Infinite Insights. Finite Decisions. ";
                                                         onClick={t_col9}
                                                         style={{ cursor: "pointer" }}
                                                       >
-                                                            Why do we use it ?
+                                                            How can I navigate this website ?
                                                         </button>
                                                     </h2>
                                                     <Collapse isOpen={col9} className="accordion-collapse">
                                                         <div className="accordion-body">
-                                                            If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing European languages. It will be as simple their most common words.
-                                                        </div>
+                                                        You can navigate the Finiti Analytics website using the main navigation menu at the top of the page, which provides quick access to dashboards, research, API documentation, and account settings. For a full overview of all available pages and sections, you can also refer to the Sitemap page.                                                        </div>
                                                     </Collapse>
                                                 </div>
                                                 <div className="accordion-item">
@@ -388,13 +387,12 @@ document.title="FAQs | Infinite Insights. Finite Decisions. ";
                                                         onClick={t_col10}
                                                         style={{ cursor: "pointer" }}
                                                       >
-                                                            Where can I get some ?
+                                                            What is your privacy policy ?
                                                         </button>
                                                     </h2>
                                                     <Collapse isOpen={col10} className="accordion-collapse">
                                                         <div className="accordion-body">
-                                                            The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is.
-                                                        </div>
+                                                        Our privacy policy outlines how we collect, use, and protect your data. You can view the full details on our Privacy Policy page.                                                        </div>
                                                     </Collapse>
                                                 </div>
                                                 <div className="accordion-item">
@@ -409,16 +407,15 @@ document.title="FAQs | Infinite Insights. Finite Decisions. ";
                                                         onClick={t_col11}
                                                         style={{ cursor: "pointer" }}
                                                       >
-                                                            What is Lorem Ipsum ?
+                                                            What are your Terms & Conditions ?
                                                         </button>
                                                     </h2>
                                                     <Collapse isOpen={col11} className="accordion-collapse">
                                                         <div className="accordion-body">
-                                                            he wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
-                                                        </div>
+                                                        Our Terms & Conditions define the rules and guidelines for using Finity Analytics. You can read the complete terms on our Terms & Conditions page.                                                        </div>
                                                     </Collapse>
                                                 </div>
-                                                <div className="accordion-item">
+                                                {/* <div className="accordion-item">
                                                     <h2 className="accordion-header" id="privacy-headingFour">
                                                     <button
                                                         className={classnames(
@@ -438,7 +435,7 @@ document.title="FAQs | Infinite Insights. Finite Decisions. ";
                                                             Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis aliquam ultrices mauris.
                                                         </div>
                                                     </Collapse>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </Col>
