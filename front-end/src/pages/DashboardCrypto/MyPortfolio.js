@@ -40,6 +40,10 @@ const MyPortfolio = () => {
     }, [dispatch]);
     return (
         <React.Fragment>
+            <div class="alert alert-danger alert-dismissible bg-danger text-white alert-label-icon fade show" role="alert">
+                <i class="ri-error-warning-line label-icon"></i><strong>Warning</strong> - This page is currently under development. Some features may be incomplete or unavailable—please check back soon for updates!
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
             <div className="col-xxl-3">
                 <div className="card card-height-100">
                     <div className="card-header border-0 align-items-center d-flex">
