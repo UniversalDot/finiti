@@ -251,7 +251,7 @@ document.title="FAQs | Infinite Insights. Finite Decisions. ";
                                                     <i className="ri-user-settings-line fs-24 align-middle text-success me-1"></i>
                                                 </div>
                                                 <div className="flex-grow-1">
-                                                    <h5 className="fs-16 mb-0 fw-semibold">Manage Account</h5>
+                                                    <h5 className="fs-16 mb-0 fw-semibold">Data Management</h5>
                                                 </div>
                                             </div>
 
@@ -268,12 +268,12 @@ document.title="FAQs | Infinite Insights. Finite Decisions. ";
                                                         onClick={t_col5}
                                                         style={{ cursor: "pointer" }}
                                                       >
-                                                            Where can I get some ?
+                                                            Do you have an API?
                                                         </button>
                                                     </h2>
                                                     <Collapse isOpen={col5} className="accordion-collapse">
                                                         <div className="accordion-body">
-                                                            If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing European languages. It will be as simple their most common words.
+                                                        An API is currently in development and will be released soon as a RESTful service. It will provide traders and analysts with structured access to key blockchain and market data for custom analysis and integration.
                                                         </div>
                                                     </Collapse>
                                                 </div>
@@ -289,12 +289,12 @@ document.title="FAQs | Infinite Insights. Finite Decisions. ";
                                                         onClick={t_col6}
                                                         style={{ cursor: "pointer" }}
                                                       >
-                                                            Where does it come from ?
+                                                            What technologies are being used?
                                                         </button>
                                                     </h2>
                                                     <Collapse isOpen={col6} className="accordion-collapse">
                                                         <div className="accordion-body">
-                                                            The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is.
+                                                        Finity Analytics is built using a modern stack including React for the front-end, Prometheus and Grafana for metrics collection and visualization, and a custom REST API for data delivery. The infrastructure is containerized and deployed via Docker, with traffic managed through Nginx and hosted on scalable cloud platforms.
                                                         </div>
                                                     </Collapse>
                                                 </div>
@@ -310,16 +310,15 @@ document.title="FAQs | Infinite Insights. Finite Decisions. ";
                                                         onClick={t_col7}
                                                         style={{ cursor: "pointer" }}
                                                       >
-                                                            Why do we use it ?
+                                                            How can we access the API ?
                                                         </button>
                                                     </h2>
                                                     <Collapse isOpen={col7} className="accordion-collapse">
                                                         <div className="accordion-body">
-                                                            he wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
-                                                        </div>
+                                                        The Finity Analytics API will be accessible through a Swagger-documented interface, allowing users to easily explore and test available endpoints. For early access or more detailed information, please email us at contact@finitianalytics.com.                                                        </div>
                                                     </Collapse>
                                                 </div>
-                                                <div className="accordion-item">
+                                                {/* <div className="accordion-item">
                                                     <h2 className="accordion-header" id="manageaccount-headingFour">
                                                     <button
                                                         className={classnames(
@@ -339,7 +338,7 @@ document.title="FAQs | Infinite Insights. Finite Decisions. ";
                                                             Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis aliquam ultrices mauris.
                                                         </div>
                                                     </Collapse>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </Col>
