@@ -774,21 +774,21 @@ const Navdata = () => {
             subItems: [
                 {
                     id: "blogs",
-                    label: "Blogs",
-                    link: "/#",
-                    isChildItem: true,
-                    badgeColor: "success", badgeName: "New",
-                    click: function (e) {
-                        e.preventDefault();
-                        setIsBlog(!isBlog);
-                    },
+                    label: "Blog",
+                    link: "/pages-blog-grid",
+                    // isChildItem: true,
+                    // badgeColor: "success", badgeName: "New",
+                    // click: function (e) {
+                    //     e.preventDefault();
+                    //     setIsBlog(!isBlog);
+                    // },
                     parentId: "research",
                     stateVariables: isBlog,
-                    childItems: [
-                        { id: 1, label: "List View", link: "/pages-blog-list", parentId: "research" },
-                        { id: 2, label: "Grid View", link: "/pages-blog-grid", parentId: "research" },
-                        { id: 3, label: "Overview", link: "/pages-blog-overview", parentId: "research" },
-                    ]
+                    // childItems: [
+                    //     { id: 1, label: "List View", link: "/pages-blog-list", parentId: "research" },
+                    //     { id: 2, label: "Grid View", link: "/pages-blog-grid", parentId: "research" },
+                    //     { id: 3, label: "Overview", link: "/pages-blog-overview", parentId: "research" },
+                    // ]
                 }
             ]
         },
@@ -838,24 +838,24 @@ const Navdata = () => {
                 // { id: "searchResults", label: "Search Results", link: "/pages-search-results", parentId: "pages" },
                 { id: "PrivecyPolicy", label: "Privacy Policy", link: "/pages-privacy-policy", parentId: "pages" },
                 { id: "TermsCondition", label: "Terms Condition", link: "/pages-terms-condition", parentId: "pages" },
-                {
-                    id: "blogs",
-                    label: "Blogs",
-                    link: "/#",
-                    isChildItem: false,
-                    badgeColor: "success", badgeName: "New",
-                    click: function (e) {
-                        e.preventDefault();
-                        setIsBlog(!isBlog);
-                    },
-                    parentId: "pages",
-                    stateVariables: isBlog,
-                    childItems: [
-                        { id: 1, label: "List View", link: "/pages-blog-list", parentId: "pages" },
-                        { id: 2, label: "Grid View", link: "/pages-blog-grid", parentId: "pages" },
-                        { id: 3, label: "Overview", link: "/pages-blog-overview", parentId: "pages" },
-                    ]
-                }
+                // {
+                //     id: "blogs",
+                //     label: "Blogs",
+                //     link: "/#",
+                //     isChildItem: false,
+                //     badgeColor: "success", badgeName: "New",
+                //     click: function (e) {
+                //         e.preventDefault();
+                //         setIsBlog(!isBlog);
+                //     },
+                //     parentId: "pages",
+                //     stateVariables: isBlog,
+                //     childItems: [
+                //         { id: 1, label: "List View", link: "/pages-blog-list", parentId: "pages" },
+                //         { id: 2, label: "Grid View", link: "/pages-blog-grid", parentId: "pages" },
+                //         { id: 3, label: "Overview", link: "/pages-blog-overview", parentId: "pages" },
+                //     ]
+                // }
             ],
         },
         // {
