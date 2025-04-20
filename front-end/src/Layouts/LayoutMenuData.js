@@ -341,23 +341,23 @@ const Navdata = () => {
                     link: "/apps-crypto-buy-sell",
                     parentId: "apps",
                 },
-                {
-                    id: "appsprojects",
-                    label: "Projects",
-                    link: "/#",
-                    isChildItem: true,
-                    click: function (e) {
-                        e.preventDefault();
-                        setIsProjects(!isProjects);
-                    },
-                    parentId: "apps",
-                    stateVariables: isProjects,
-                    // childItems: [
-                    //     { id: 1, label: "List", link: "/apps-projects-list", parentId: "apps", },
-                    //     { id: 2, label: "Overview", link: "/apps-projects-overview", parentId: "apps", },
-                    //     { id: 3, label: "Create Project", link: "/apps-projects-create", parentId: "apps", },
-                    // ]
-                },
+                // {
+                //     id: "appsprojects",
+                //     label: "Projects",
+                //     link: "/#",
+                //     isChildItem: true,
+                //     click: function (e) {
+                //         e.preventDefault();
+                //         setIsProjects(!isProjects);
+                //     },
+                //     parentId: "apps",
+                //     stateVariables: isProjects,
+                //     childItems: [
+                //         { id: 1, label: "List", link: "/apps-projects-list", parentId: "apps", },
+                //         { id: 2, label: "Overview", link: "/apps-projects-overview", parentId: "apps", },
+                //         { id: 3, label: "Create Project", link: "/apps-projects-create", parentId: "apps", },
+                //     ]
+                // },
                 // {
                 //     id: "tasks",
                 //     label: "Tasks",
