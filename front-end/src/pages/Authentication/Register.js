@@ -208,7 +208,7 @@ const Register = () => {
                                                 </div>
 
                                                 <div className="mb-4">
-                                                    <p className="mb-0 fs-12 text-muted fst-italic">By registering you agree to the Velzon
+                                                    <p className="mb-0 fs-12 text-muted fst-italic">By registering you agree to the Finiti
                                                         <Link to="#" className="text-primary text-decoration-underline fst-normal fw-medium">Terms of Use</Link></p>
                                                 </div>
 
