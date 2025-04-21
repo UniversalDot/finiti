@@ -155,8 +155,7 @@ const Header = ({ onChangeLayoutMode, layoutModeType, headerClass }) => {
                             {/* TODO: Enable in future */}
 
                             {/* ProfileDropdown */}
-                            {/* <ProfileDropdown /> */}
-                            {/* TODO: Enable in future */}
+                            <ProfileDropdown />
                         </div>
                     </div>
                 </div>
