@@ -47,7 +47,7 @@ const CoverSignUp = () => {
                                             <div className="p-lg-5 p-4">
                                                 <div>
                                                     <h5 className="text-primary">Register Account</h5>
-                                                    <p className="text-muted">Get your Free Velzon account now.</p>
+                                                    {/* <p className="text-muted">Get your Free Velzon account now.</p> */}
                                                 </div>
 
                                                 <div className="mt-4">

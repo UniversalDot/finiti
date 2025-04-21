@@ -21,7 +21,7 @@ document.title="Cover SignIn | Infinite Insights. Finite Decisions. ";
                                         <Col lg={6}>
                                             <div className="p-lg-5 p-4">
                                                 <div>
-                                                    <h5 className="text-primary">Welcome Back !</h5>
+                                                    <h5 className="text-primary">Welcome!</h5>
                                                     <p className="text-muted">Sign in to continue to FINITY.</p>
                                                 </div>
 
