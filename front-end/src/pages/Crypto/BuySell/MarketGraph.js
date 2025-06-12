@@ -373,9 +373,7 @@ const MarketGraph = ({ dataColors }) => {
                                 className="apex-charts"
                             />
                         </div>
-                        <iframe src="http://80.208.226.241:3000/d-solo/dekkxpfjlz400a/coinmarketcap-single?orgId=1&from=1746024278235&to=1746110678235&timezone=browser&var-name=Bitcoin&refresh=15m&panelId=8&__feature.dashboardSceneSolo" width="250" height="200" frameborder="0"></iframe>
-                        <iframe src="http://80.208.226.241:3000/d-solo/dekkxpfjlz400a/coinmarketcap-single?orgId=1&from=1746025489825&to=1746111889825&timezone=browser&var-name=Bitcoin&refresh=15m&panelId=13&__feature.dashboardSceneSolo" width="250" height="200" frameborder="0"></iframe>
-                        <iframe src="http://80.208.226.241:3000/d-solo/dekkxpfjlz400a/coinmarketcap-single?orgId=1&from=1746025489825&to=1746111889825&timezone=browser&var-name=Bitcoin&refresh=15m&panelId=1&__feature.dashboardSceneSolo" width="450" height="200" frameborder="0"></iframe>
+                        <iframe src="http://80.208.226.241:3000/d-solo/dekkxpfjlz400a/coinmarketcap-single?orgId=1&from=1749672344588&to=1749758744588&timezone=browser&var-name=Bitcoin&refresh=15m&panelId=8&__feature.dashboardSceneSolo" width="450" height="200" frameborder="0"></iframe>
                     </CardBody>
                 </Card>
             </Col>
