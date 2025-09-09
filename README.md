@@ -39,4 +39,18 @@ These dashboards can be imported directly into your Grafana instance and include
 
 ---
 
+## 📁 Deployment Instructions
+
+### 2. React Frontend
+
+The deployment of front-end is currently manual to Hostinger. Copy the build folder to access latest changes.
+
+To run the latest version of the front-end navigate to the appropriate folder and run:
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
 
